@@ -1,0 +1,137 @@
+:root {
+  --main-color: #402A72;
+  --sub-color1: #DF3026;
+  --sub-color2: #EDAF1C;
+  --bg-color: #74D0EE;
+}
+
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+section h2 {
+  font-family: 'Yeon Sung', cursive;
+  color: var(--main-color);
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: #74D0EE;
+  background-image: url(images/header-bg.jpg);
+  background-size: cover;
+  /* 높이값 = 28%, vh(viewport height) */
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header .logo {
+  width: 120px;
+}
+
+header h1 {
+  font-size: 28px;
+  font-family: 'Yeon Sung', cursive;
+  color: var(--main-color);
+}
+
+header h1 > span {
+  font-size: 18px;
+}
+
+#title {
+  background: #ccc;
+  height: 100vh;
+}
+
+#title .title-photo {
+  height: 50vh;
+  /* outline: 2px solid #000; */
+}
+
+#title .title-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#title .title-footer {
+  background: #fff;
+  height: 22vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#title .title-footer .date {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#title .title-footer .address {
+  font-size: 16px;
+}
+
+
+section .bar {
+  height: 40px; 
+  width: 2px;
+  background: var(--main-color);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* 초대글 영역 */
+#invitation {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: var(--bg-color);
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+#invitation p {
+  margin-bottom: 1em;
+}
+
+.send-msg-box {
+  /* background: #ccc; */
+  display: flex;
+  margin-top: 55px;
+}
+
+.send-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-btn i {
+  margin-right: 10px;
+}
