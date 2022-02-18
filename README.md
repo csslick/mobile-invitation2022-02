@@ -9,6 +9,7 @@
   - 지도
   - SNS 링크
   - 앱아이콘 제작
-  - Splash screen(준비 화면)
+  - Splash screen(준비 화면) Javascript
+  - 디바이스 최대폭 조정(CSS)
   4. 배포
   5. 자료정리
