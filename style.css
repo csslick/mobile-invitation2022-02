@@ -259,3 +259,22 @@ section .bar {
 .sns-group .icon-link {
   color: #fff;
 }
+
+
+.splash.on {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: var(--bg-color);
+  z-index: 99;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash {
+  display: none;
+}
