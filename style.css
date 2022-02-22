@@ -259,3 +259,27 @@ section .bar {
 .sns-group .icon-link {
   color: #fff;
 }
+
+
+/* 준비화면 */
+.splash-screen.on {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  background: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-screen {
+  display: none;
+}
+
+.splash-screen > img {
+  width: 140px;
+  height: 140px;
+}
