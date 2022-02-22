@@ -26,6 +26,9 @@ a {
 body {
   font-family: 'Noto Sans KR', sans-serif;
   text-align: center;
+  /* 최대 폭 조정 */
+  max-width: 425px;
+  margin: 0 auto;
 }
 
 section h2 {
